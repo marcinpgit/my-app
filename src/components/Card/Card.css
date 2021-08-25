@@ -1,0 +1,75 @@
+.CardWrapper {
+    display: flex;
+    height: 75px;
+    padding: 8px 20px 8px 0;
+    background-color: #fff;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 3px 4px 5px 0 #e0e0e0;
+}
+
+.CompanyLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    padding: 15px;
+}
+
+.CardContent {
+    width: 80%;
+}
+
+.CardHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.Title {
+    font-weight: 700;
+}
+
+.Salary {
+    color: #1FC66C;
+}
+
+.CardSubContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.CardInfo {
+    display: flex;
+    align-items: baseline;
+    color: #808080;
+    font-size: 12px;
+    margin: 15px 15px 0 0;
+}
+
+.SubInfo {
+    margin-right: 15px;
+}
+
+.RemoteChips {
+    padding: 3px 10px;
+    background-color: #ffeaa3;
+    color: #000;
+    border-radius: 10px;
+}
+
+.CardSkills {
+    display: flex;
+    font-size: 12px;
+}
+
+.SkillChips {
+    padding: 3px 10px;
+    background-color: #e7cbec;
+    border-radius: 10px;
+    height: 16px;
+    margin-left: 3px;
+    white-space: nowrap;
+}

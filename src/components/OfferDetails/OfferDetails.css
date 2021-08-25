@@ -1,0 +1,127 @@
+.DetailsWrapper {
+    padding: 10px 20px;
+    width: 50%;
+    height: 90vh;
+    background-color: #F3F6F8;
+}
+
+.Header {
+    position:relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F2B606;
+    padding: 50px;
+    color: #fff5f5;
+    border-radius: 0 0 5px 5px;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+
+}
+
+.OfferTitle {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.Location {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.Remote {
+    background-color: #906d04;
+    color: #fff5f5;
+    border-radius: 5px;
+    width: max-content;
+    padding: 3px 10px;
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+.SalaryRange {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.HeaderLogo {
+    position: absolute;
+    left: 10%;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 4px 5px 0 #e0e0e0;
+
+}
+
+.SubHeader {
+    position: relative;
+    top: -30px;
+    display: flex;
+    justify-content: space-around;   
+    padding: 0 60px;
+}
+
+.SubHeaderItem {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 3px 4px 5px 0 #e0e0e0;
+    padding: 25px;
+    margin: 0 7px;
+    text-align: center;
+    flex: 1 1 0;
+}
+
+.SubHeaderContent{
+    font-size: 14px;
+    color:#5e6873;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.CompanyHighlight {
+    color: #873795;
+}
+
+.SubHeaderTitle {
+    font-size: 12px;
+    color: #99a1ab;
+}
+
+.Skills {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 3px 4px 5px 0 #e0e0e0;
+}
+
+.SkillsTitle {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dcdbdb;
+}
+
+.SkillsRate {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px 0 30px;
+}
+
+.SkillName {
+    font-weight: 600;
+    padding: 15px 25px;    
+}

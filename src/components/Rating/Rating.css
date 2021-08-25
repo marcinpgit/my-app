@@ -1,0 +1,22 @@
+.RatingWrapper {
+    text-align: center;
+}
+
+.Skilled {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #F2B606;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.NotSkilled {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #9fa7ad;
+    display: inline-block;
+    margin-right: 5px;
+}
+
